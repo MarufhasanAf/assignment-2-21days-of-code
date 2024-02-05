@@ -1,0 +1,16 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #413960;
+}
+
+p {
+    color: #6C6B6B;
+}
+
+.footer-items li {
+    line-height: 2rem;
+}
