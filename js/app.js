@@ -21,7 +21,7 @@ for (let btn of buttons) {
         let itemsCount = document.getElementById('items-count');
         let itemsString = itemsCount.innerText;
         let itemsNumber = parseFloat(itemsString);
-        let seatCount = event.target.nextElementSibling.children[1].children[0];
+        let seatCount = event.target.nextElementSibling.children[1].children[1];
         let seatCountString = seatCount.innerText;
         let seatCountNumber = parseInt(seatCountString);
         div.innerHTML = htmlCode;
